@@ -15,18 +15,18 @@ Al entrar debe preguntar el modo de juego:
 ### Premisas generales:
 ```
 1. El código debe estar escrito en Python.
-1. No se pueden usar listas, tuplas o diccionarios.
-1. Se deben seguir buenas prácticas de programación, incluyendo el principio de responsabilidad única.
-1. Entregar el programa junto con pruebas unitarias de las funciones utilizadas.
-1. Para corregirlo, el programa debe pasar los test que se hayan diseñado.
-1. No es necesario realizar pruebas a funciones que contengan un input().
-1. Se deben realizar todas las comprobaciones necesarias para que el programa no genere errores/excepciones.
-1. El programa debe estar documentado con docstrings (ver https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/)
-1. El trabajo se llevará a cabo en parejas, utilizando control de versiones (Git) y plataformas de colaboración como GitHub para coordinarse. Todas las aportaciones deben ser entre los dos miembros del equipo.
-1. El último commit marcará el tiempo de entrega. Se corregirán los tres primeros que se hayan entregado dentro de la siguiente hora al último commit de la primera entrega.
-1. Se tendrá un tiempo máximo de 2 desde la fecha de apertura del reto para terminarlo.
-1. Si se detecta copia entre retos o de cualquier otra fuente, la entrega quedará eliminada.
-1. La aceptación de la solución al reto como solución válida, supondrá un beneficio en la nota final del módulo.
+2. No se pueden usar listas, tuplas o diccionarios.
+3. Se deben seguir buenas prácticas de programación, incluyendo el principio de responsabilidad única.
+4. Entregar el programa junto con pruebas unitarias de las funciones utilizadas.
+5. Para corregirlo, el programa debe pasar los test que se hayan diseñado.
+6. No es necesario realizar pruebas a funciones que contengan un input().
+7. Se deben realizar todas las comprobaciones necesarias para que el programa no genere errores/excepciones.
+8. El programa debe estar documentado con docstrings (ver https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/)
+9. El trabajo se llevará a cabo en parejas, utilizando control de versiones (Git) y plataformas de colaboración como GitHub para coordinarse. Todas las aportaciones deben ser entre los dos miembros del equipo.
+10. El último commit marcará el tiempo de entrega. Se corregirán los tres primeros que se hayan entregado dentro de la siguiente hora al último commit de la primera entrega.
+11. Se tendrá un tiempo máximo de 2 desde la fecha de apertura del reto para terminarlo.
+12. Si se detecta copia entre retos o de cualquier otra fuente, la entrega quedará eliminada.
+13. La aceptación de la solución al reto como solución válida, supondrá un beneficio en la nota final del módulo.
 ```
 
 ### Objetivo del juego:
@@ -49,7 +49,7 @@ Al entrar debe preguntar el modo de juego:
 	7. El programa debe solicitar el modo de juego y a continuación el nombre o apodo del o los jugadores.
 	8. Cada jugador pide una carta por turno o se planta. Como mínimo un jugador debe solicitar una carta, es decir, la primera vez no se le da la opción a plantarse. Pero el resto de turnos si.
 	9. El juego acaba cuando ambos jugadores se plantan. Mientras que un jugador no se pase de 21 puntos y no se plante se debe preguntar si quiere una carta más.
-	10 Cuando finaliza el juego se debe mostrar lo siguiente (4 posibilidades):
+	10. Cuando finaliza el juego se debe mostrar lo siguiente (4 posibilidades):
 
 		JUEGO TERMINADO
 		Game over ¡Los dos os habéis pasado!
