@@ -24,7 +24,7 @@ Al entrar debe preguntar el modo de juego:
 8. El programa debe estar documentado con docstrings (ver https://revilofe.github.io/section1/u02/teoria/PROG-U2.5.-Documentar/)
 9. El trabajo se llevará a cabo en parejas, utilizando control de versiones (Git) y plataformas de colaboración como GitHub para coordinarse. Todas las aportaciones deben ser entre los dos miembros del equipo.
 10. El último commit marcará el tiempo de entrega. Se corregirán los tres primeros que se hayan entregado dentro de la siguiente hora al último commit de la primera entrega.
-11. Se tendrá un tiempo máximo de 2 desde la fecha de apertura del reto para terminarlo.
+11. Se tendrá un tiempo máximo de 2 semanas desde la fecha de apertura del reto para terminarlo.
 12. Si se detecta copia entre retos o de cualquier otra fuente, la entrega quedará eliminada.
 13. La aceptación de la solución al reto como solución válida, supondrá un beneficio en la nota final del módulo.
 ```
