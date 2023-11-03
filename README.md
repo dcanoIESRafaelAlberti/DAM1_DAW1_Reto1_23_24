@@ -5,11 +5,24 @@ Juguemos al BlackJack
 
 ### Descripción:
 ```
+* PROGRAMACIÓN:
+
 Crear un programa en Python con funciones para jugar al Blackjack.
 
 Al entrar debe preguntar el modo de juego:
-1. Dos jugadores.
-2. Un jugador contra la máquina.
+
+    1. Dos jugadores.
+    2. Un jugador contra la máquina.
+
+* BASE DE DATOS:
+
+Crear también un modelo lógico de datos, diseñando el Modelo Entidad/Relación con ERDplus, para una futura actualización del programa Blackjack con las siguientes características:
+
+    1. El sistema diseñado debe almacenar los datos de los jugadores, correo, contraseña, apodo, nombre, apellidos y fecha de nacimiento.
+    2. Hay dos tipos de jugadores, pueden ser profesionales o aficionados, de los profesionales guardaremos, además de la información anterior, su ficha de federado y su puesto en el ranking al principio del año. 
+    3. Así mismo, la base de datos tendrá la información de las partidas, con el modo de juego (2 jugadores o jugador/máquina), fecha y hora de comienzo y fin de la partida, y el resultado final, guardando el ganador y el perdedor, o el empate.
+    4. Igualmente se deben guardar los datos de las rondas o turnos que se juegan en cada partida: pide carta o se planta, cartas del jugador en cada turno y los puntos.
+    5. También se quiere guardar datos del equipo o club que representa el jugador, si es que juega representando algún club, los datos que se quieren guardar del club son el nombre, fecha de creación, dirección de la sede, nombre del presidente y número telefono del presidente.
 ```
 
 ### Premisas generales:
