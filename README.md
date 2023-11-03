@@ -38,19 +38,25 @@ Al entrar debe preguntar el modo de juego:
 ### Funcionamiento:
 	1. Gana el jugador que tenga la puntuación más alta sin pasarse de 21 puntos.
 	2. La baraja de cartas es la cadena de caracteres "A234567890JKQ". Las cartas tienen los siguientes puntos:
+ 
 		A -> 1 o 10 (según le venga mejor al resto de cartas que tiene en su poder el jugador)
 		2...9 -> el propio valor del número.
 		0, J, Q, K -> 10
+  
 	3. Cada jugador irá solicitando cartas por turnos, después del primer turno obligatorio, un jugador puede plantarse cuando lo decida.
 	4. Después de cada turno, se debe mostrar la información de la ronda o turno, las cartas y puntos de cada jugador:
+ 
 		RONDA 3
 		J1 - jugador1 - A3K (14)
 		J2 - jugador2 - A44 (18)
+  
 	5. Cuando un jugador se pasa de 21, automáticamente pierde y gana el otro jugador.
 	6. Las cartas de los jugadores y puntuaciones se revelan a la vez después de pasar el turno ambos jugadores, es decir, cada jugador decide pedir una carta más o plantarse y a continuación se muestra la información de cada jugador.
+ 
  		RONDA 3
 		J1 - jugador1 - 63K (19)
 		J2 - jugador2 - J4Q **se pasa**
+  
 	7. El programa debe solicitar el modo de juego y a continuación el nombre o apodo del o los jugadores.
 	8. Cada jugador pide una carta por turno o se planta. Como mínimo un jugador debe solicitar una carta, es decir, la primera vez no se le da la opción a plantarse. Pero el resto de turnos si.
 	9. El juego acaba cuando ambos jugadores se plantan. Mientras que un jugador no se pase de 21 puntos y no se plante se debe preguntar si quiere una carta más.
